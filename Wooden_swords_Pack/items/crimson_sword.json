@@ -1,0 +1,80 @@
+//bridge-file-version: #22
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sw:crimson_sword",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:use_duration": 3600,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 131
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"minecraft:crimson_planks"
+						],
+						"repair_amount": "query.max_durability * 0.5"
+					},
+					{
+						"items": [
+							"sw:crimson_sword"
+						],
+						"repair_amount": "context.other->query.remaining_durability"
+					}
+				]
+			},
+			"minecraft:mining_speed": 1.5,
+			"minecraft:damage": 4,
+			"minecraft:enchantable": {
+				"value": 15,
+				"slot": "sword"
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 15,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 10,
+						"on_dig": {
+							"event": "dmg"
+						}
+					}
+				],
+				"on_dig": {
+					"event": "dmg"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "crimson_sword"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "dmg"
+				}
+			}
+		},
+		"events": {
+			"dmg": {
+				"damage": {
+					"type": "durability",
+					"target": "self",
+					"amount": 3
+				}
+			}
+		}
+	}
+}

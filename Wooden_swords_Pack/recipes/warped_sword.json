@@ -1,0 +1,30 @@
+//bridge-file-version: #7
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "minecraft:wooden_sword_from_warped_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:warped_planks"
+			},
+			"B": {
+				"item": "stick"
+			}
+		},
+		"result": {
+			"item": "sw:warped_sword",
+			"count": 1
+		},
+		"priority": 1
+	}
+}

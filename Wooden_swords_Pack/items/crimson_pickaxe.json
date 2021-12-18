@@ -1,0 +1,74 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "sw:crimson_pickaxe",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 131
+			},
+			"minecraft:mining_speed": 2,
+			"minecraft:damage": 2,
+			"minecraft:enchantable": {
+				"value": 15,
+				"slot": "pickaxe"
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('stone', 'metal', 'wood_pick_diggable')"
+						},
+						"speed": 2,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:ice",
+						"speed": 2,
+						"on_dig": {
+							"event": "dmg"
+						}
+					},
+					{
+						"block": "minecraft:sandstone",
+						"speed": 2,
+						"on_dig": {
+							"event": "dmg"
+						}
+					}
+				],
+				"on_dig": {
+					"event": "dmg"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "crimson_pickaxe"
+			}
+		},
+		"events": {
+			"dmg": {
+				"damage": {
+					"target": "self",
+					"type": "magic",
+					"amount": 3
+				}
+			},
+			"on_tool_used": {
+				"swing": {},
+				"damage": {
+					"type": "magic",
+					"amount": 1,
+					"target": "self"
+				}
+			}
+		}
+	}
+}

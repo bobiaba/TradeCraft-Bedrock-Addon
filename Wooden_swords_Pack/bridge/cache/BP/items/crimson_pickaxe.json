@@ -1,0 +1,814 @@
+{
+	"file_path": "/home/bob/.local/share/mcpelauncher/games/com.mojang/development_behavior_packs/Wooden_swords/items/crimson_pickaxe.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "99004b50_4008_4d0f_bb0c_99c27ef9662f",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "sw:crimson_pickaxe",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_durability": 131
+							},
+							"minecraft:mining_speed": 2,
+							"minecraft:damage": 2,
+							"minecraft:enchantable": {
+								"value": 15,
+								"slot": "pickaxe"
+							},
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": {
+											"tags": "q.any_tag('stone', 'metal', 'wood_pick_diggable')"
+										},
+										"speed": 2,
+										"on_dig": {
+											"event": "dmg"
+										}
+									},
+									{
+										"block": "minecraft:ice",
+										"speed": 2,
+										"on_dig": {
+											"event": "dmg"
+										}
+									},
+									{
+										"block": "minecraft:sandstone",
+										"speed": 2,
+										"on_dig": {
+											"event": "dmg"
+										}
+									}
+								],
+								"on_dig": {
+									"event": "dmg"
+								}
+							},
+							"minecraft:icon": {
+								"texture": "crimson_pickaxe"
+							}
+						},
+						"events": {
+							"dmg": {
+								"damage": {
+									"target": "self",
+									"type": "magic",
+									"amount": 3
+								}
+							},
+							"on_tool_used": {
+								"swing": {},
+								"damage": {
+									"type": "magic",
+									"amount": 1,
+									"target": "self"
+								}
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "sw:crimson_pickaxe",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_durability": 131
+							},
+							"minecraft:mining_speed": 2,
+							"minecraft:damage": 2,
+							"minecraft:enchantable": {
+								"value": 15,
+								"slot": "pickaxe"
+							},
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": {
+											"tags": "q.any_tag('stone', 'metal', 'wood_pick_diggable')"
+										},
+										"speed": 2,
+										"on_dig": {
+											"event": "dmg"
+										}
+									},
+									{
+										"block": "minecraft:ice",
+										"speed": 2,
+										"on_dig": {
+											"event": "dmg"
+										}
+									},
+									{
+										"block": "minecraft:sandstone",
+										"speed": 2,
+										"on_dig": {
+											"event": "dmg"
+										}
+									}
+								],
+								"on_dig": {
+									"event": "dmg"
+								}
+							},
+							"minecraft:icon": {
+								"texture": "crimson_pickaxe"
+							}
+						},
+						"events": {
+							"dmg": {
+								"damage": {
+									"target": "self",
+									"type": "magic",
+									"amount": 3
+								}
+							},
+							"on_tool_used": {
+								"swing": {},
+								"damage": {
+									"type": "magic",
+									"amount": 1,
+									"target": "self"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "sw:crimson_pickaxe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_durability": 131
+								},
+								"minecraft:mining_speed": 2,
+								"minecraft:damage": 2,
+								"minecraft:enchantable": {
+									"value": 15,
+									"slot": "pickaxe"
+								},
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": {
+												"tags": "q.any_tag('stone', 'metal', 'wood_pick_diggable')"
+											},
+											"speed": 2,
+											"on_dig": {
+												"event": "dmg"
+											}
+										},
+										{
+											"block": "minecraft:ice",
+											"speed": 2,
+											"on_dig": {
+												"event": "dmg"
+											}
+										},
+										{
+											"block": "minecraft:sandstone",
+											"speed": 2,
+											"on_dig": {
+												"event": "dmg"
+											}
+										}
+									],
+									"on_dig": {
+										"event": "dmg"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "crimson_pickaxe"
+								}
+							},
+							"events": {
+								"dmg": {
+									"damage": {
+										"target": "self",
+										"type": "magic",
+										"amount": 3
+									}
+								},
+								"on_tool_used": {
+									"swing": {},
+									"damage": {
+										"type": "magic",
+										"amount": 1,
+										"target": "self"
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "sw:crimson_pickaxe",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "sw:crimson_pickaxe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_durability": 131
+								},
+								"minecraft:mining_speed": 2,
+								"minecraft:damage": 2,
+								"minecraft:enchantable": {
+									"value": 15,
+									"slot": "pickaxe"
+								},
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": {
+												"tags": "q.any_tag('stone', 'metal', 'wood_pick_diggable')"
+											},
+											"speed": 2,
+											"on_dig": {
+												"event": "dmg"
+											}
+										},
+										{
+											"block": "minecraft:ice",
+											"speed": 2,
+											"on_dig": {
+												"event": "dmg"
+											}
+										},
+										{
+											"block": "minecraft:sandstone",
+											"speed": 2,
+											"on_dig": {
+												"event": "dmg"
+											}
+										}
+									],
+									"on_dig": {
+										"event": "dmg"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "crimson_pickaxe"
+								}
+							},
+							"events": {
+								"dmg": {
+									"damage": {
+										"target": "self",
+										"type": "magic",
+										"amount": 3
+									}
+								},
+								"on_tool_used": {
+									"swing": {},
+									"damage": {
+										"type": "magic",
+										"amount": 1,
+										"target": "self"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 131
+									},
+									"minecraft:mining_speed": 2,
+									"minecraft:damage": 2,
+									"minecraft:enchantable": {
+										"value": 15,
+										"slot": "pickaxe"
+									},
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": {
+													"tags": "q.any_tag('stone', 'metal', 'wood_pick_diggable')"
+												},
+												"speed": 2,
+												"on_dig": {
+													"event": "dmg"
+												}
+											},
+											{
+												"block": "minecraft:ice",
+												"speed": 2,
+												"on_dig": {
+													"event": "dmg"
+												}
+											},
+											{
+												"block": "minecraft:sandstone",
+												"speed": 2,
+												"on_dig": {
+													"event": "dmg"
+												}
+											}
+										],
+										"on_dig": {
+											"event": "dmg"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "crimson_pickaxe"
+									}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 131
+								}
+							},
+							{
+								"data": "2",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"data": "2",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 15,
+									"slot": "pickaxe"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 131
+									},
+									"minecraft:mining_speed": 2,
+									"minecraft:damage": 2,
+									"minecraft:enchantable": {
+										"value": 15,
+										"slot": "pickaxe"
+									},
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": {
+													"tags": "q.any_tag('stone', 'metal', 'wood_pick_diggable')"
+												},
+												"speed": 2,
+												"on_dig": {
+													"event": "dmg"
+												}
+											},
+											{
+												"block": "minecraft:ice",
+												"speed": 2,
+												"on_dig": {
+													"event": "dmg"
+												}
+											},
+											{
+												"block": "minecraft:sandstone",
+												"speed": 2,
+												"on_dig": {
+													"event": "dmg"
+												}
+											}
+										],
+										"on_dig": {
+											"event": "dmg"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "crimson_pickaxe"
+									}
+								},
+								"key": "minecraft:digger",
+								"children": [
+									{
+										"open": {
+											"use_efficiency": true,
+											"destroy_speeds": [
+												{
+													"block": {
+														"tags": "q.any_tag('stone', 'metal', 'wood_pick_diggable')"
+													},
+													"speed": 2,
+													"on_dig": {
+														"event": "dmg"
+													}
+												},
+												{
+													"block": "minecraft:ice",
+													"speed": 2,
+													"on_dig": {
+														"event": "dmg"
+													}
+												},
+												{
+													"block": "minecraft:sandstone",
+													"speed": 2,
+													"on_dig": {
+														"event": "dmg"
+													}
+												}
+											],
+											"on_dig": {
+												"event": "dmg"
+											}
+										},
+										"data": "true",
+										"key": "use_efficiency"
+									},
+									{
+										"open": {
+											"use_efficiency": true,
+											"destroy_speeds": [
+												{
+													"block": {
+														"tags": "q.any_tag('stone', 'metal', 'wood_pick_diggable')"
+													},
+													"speed": 2,
+													"on_dig": {
+														"event": "dmg"
+													}
+												},
+												{
+													"block": "minecraft:ice",
+													"speed": 2,
+													"on_dig": {
+														"event": "dmg"
+													}
+												},
+												{
+													"block": "minecraft:sandstone",
+													"speed": 2,
+													"on_dig": {
+														"event": "dmg"
+													}
+												}
+											],
+											"on_dig": {
+												"event": "dmg"
+											}
+										},
+										"key": "destroy_speeds",
+										"children": [
+											{
+												"children": [
+													{
+														"key": "block",
+														"is_minified": true,
+														"children": {
+															"tags": "q.any_tag('stone', 'metal', 'wood_pick_diggable')"
+														}
+													},
+													{
+														"data": "2",
+														"key": "speed"
+													},
+													{
+														"open": {
+															"block": {
+																"tags": "q.any_tag('stone', 'metal', 'wood_pick_diggable')"
+															},
+															"speed": 2,
+															"on_dig": {
+																"event": "dmg"
+															}
+														},
+														"key": "on_dig",
+														"is_minified": true,
+														"children": {
+															"event": "dmg"
+														}
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"block": {
+															"tags": "q.any_tag('stone', 'metal', 'wood_pick_diggable')"
+														},
+														"speed": 2,
+														"on_dig": {
+															"event": "dmg"
+														}
+													},
+													{
+														"block": "minecraft:ice",
+														"speed": 2,
+														"on_dig": {
+															"event": "dmg"
+														}
+													},
+													{
+														"block": "minecraft:sandstone",
+														"speed": 2,
+														"on_dig": {
+															"event": "dmg"
+														}
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:ice",
+													"speed": 2,
+													"on_dig": {
+														"event": "dmg"
+													}
+												}
+											},
+											{
+												"open": [
+													{
+														"block": {
+															"tags": "q.any_tag('stone', 'metal', 'wood_pick_diggable')"
+														},
+														"speed": 2,
+														"on_dig": {
+															"event": "dmg"
+														}
+													},
+													{
+														"block": "minecraft:ice",
+														"speed": 2,
+														"on_dig": {
+															"event": "dmg"
+														}
+													},
+													{
+														"block": "minecraft:sandstone",
+														"speed": 2,
+														"on_dig": {
+															"event": "dmg"
+														}
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"block": "minecraft:sandstone",
+													"speed": 2,
+													"on_dig": {
+														"event": "dmg"
+													}
+												}
+											}
+										]
+									},
+									{
+										"key": "on_dig",
+										"is_minified": true,
+										"children": {
+											"event": "dmg"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 131
+									},
+									"minecraft:mining_speed": 2,
+									"minecraft:damage": 2,
+									"minecraft:enchantable": {
+										"value": 15,
+										"slot": "pickaxe"
+									},
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": {
+													"tags": "q.any_tag('stone', 'metal', 'wood_pick_diggable')"
+												},
+												"speed": 2,
+												"on_dig": {
+													"event": "dmg"
+												}
+											},
+											{
+												"block": "minecraft:ice",
+												"speed": 2,
+												"on_dig": {
+													"event": "dmg"
+												}
+											},
+											{
+												"block": "minecraft:sandstone",
+												"speed": 2,
+												"on_dig": {
+													"event": "dmg"
+												}
+											}
+										],
+										"on_dig": {
+											"event": "dmg"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "crimson_pickaxe"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "crimson_pickaxe"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "sw:crimson_pickaxe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_durability": 131
+								},
+								"minecraft:mining_speed": 2,
+								"minecraft:damage": 2,
+								"minecraft:enchantable": {
+									"value": 15,
+									"slot": "pickaxe"
+								},
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": {
+												"tags": "q.any_tag('stone', 'metal', 'wood_pick_diggable')"
+											},
+											"speed": 2,
+											"on_dig": {
+												"event": "dmg"
+											}
+										},
+										{
+											"block": "minecraft:ice",
+											"speed": 2,
+											"on_dig": {
+												"event": "dmg"
+											}
+										},
+										{
+											"block": "minecraft:sandstone",
+											"speed": 2,
+											"on_dig": {
+												"event": "dmg"
+											}
+										}
+									],
+									"on_dig": {
+										"event": "dmg"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "crimson_pickaxe"
+								}
+							},
+							"events": {
+								"dmg": {
+									"damage": {
+										"target": "self",
+										"type": "magic",
+										"amount": 3
+									}
+								},
+								"on_tool_used": {
+									"swing": {},
+									"damage": {
+										"type": "magic",
+										"amount": 1,
+										"target": "self"
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"dmg": {
+										"damage": {
+											"target": "self",
+											"type": "magic",
+											"amount": 3
+										}
+									},
+									"on_tool_used": {
+										"swing": {},
+										"damage": {
+											"type": "magic",
+											"amount": 1,
+											"target": "self"
+										}
+									}
+								},
+								"key": "dmg",
+								"is_minified": true,
+								"children": {
+									"damage": {
+										"target": "self",
+										"type": "magic",
+										"amount": 3
+									}
+								}
+							},
+							{
+								"open": {
+									"dmg": {
+										"damage": {
+											"target": "self",
+											"type": "magic",
+											"amount": 3
+										}
+									},
+									"on_tool_used": {
+										"swing": {},
+										"damage": {
+											"type": "magic",
+											"amount": 1,
+											"target": "self"
+										}
+									}
+								},
+								"key": "on_tool_used",
+								"is_minified": true,
+								"children": {
+									"swing": {},
+									"damage": {
+										"type": "magic",
+										"amount": 1,
+										"target": "self"
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

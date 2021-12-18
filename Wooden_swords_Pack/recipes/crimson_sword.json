@@ -1,0 +1,30 @@
+//bridge-file-version: #5
+{
+	"format_version": 1.16,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "minecraft:wooden_sword_from_crimson_planks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A",
+			"A",
+			"B"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:crimson_planks"
+			},
+			"B": {
+				"item": "stick"
+			}
+		},
+		"result": {
+			"item": "sw:crimson_sword",
+			"count": 1
+		},
+		"priority": 1
+	}
+}

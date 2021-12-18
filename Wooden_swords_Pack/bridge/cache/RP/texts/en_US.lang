@@ -1,0 +1,8 @@
+{
+	"file_path": "/home/bob/.local/share/mcpelauncher/games/com.mojang/development_resource_packs/wooden_swords/texts/en_US.lang",
+	"file_type": "client_lang",
+	"format_version": 0,
+	"file_uuid": "496a9bf9_7b24_479e_98f9_d86de261b1f2",
+	"file_version": 0,
+	"cache_content": "pack.name=wooden_swords\npack.description=better wooden swords\nitem.sw:crimson_sword=Wooden Sword\nitem.sw:warped_sword=Wooden Sword\n"
+}

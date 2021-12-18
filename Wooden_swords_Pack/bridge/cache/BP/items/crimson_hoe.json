@@ -1,0 +1,512 @@
+{
+	"file_path": "/home/bob/.local/share/mcpelauncher/games/com.mojang/development_behavior_packs/Wooden_swords/items/crimson_hoe.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "fe245535_a68c_4f0c_a125_48ad3b7562d1",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "sw:crimson_hoe",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_durability": 59
+							},
+							"minecraft:mining_speed": 2,
+							"minecraft:damage": 0,
+							"minecraft:enchantable": {
+								"value": 15,
+								"slot": "hoe"
+							},
+							"minecraft:use_on": {
+								"blocks": [
+									"grass",
+									"dirt",
+									"grass_path"
+								]
+							},
+							"tag:minecraft:is_hoe": {},
+							"minecraft:icon": {
+								"texture": "crimson_hoe"
+							},
+							"minecraft:digger": {
+								"on_dig": {
+									"event": "dmg"
+								}
+							}
+						},
+						"events": {
+							"on_tool_used": {
+								"swing": {},
+								"damage": {
+									"type": "magic",
+									"amount": 1,
+									"target": "self"
+								}
+							},
+							"dmg": {
+								"damage": {
+									"type": "magic",
+									"amount": 3,
+									"target": "self"
+								}
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "sw:crimson_hoe",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_durability": 59
+							},
+							"minecraft:mining_speed": 2,
+							"minecraft:damage": 0,
+							"minecraft:enchantable": {
+								"value": 15,
+								"slot": "hoe"
+							},
+							"minecraft:use_on": {
+								"blocks": [
+									"grass",
+									"dirt",
+									"grass_path"
+								]
+							},
+							"tag:minecraft:is_hoe": {},
+							"minecraft:icon": {
+								"texture": "crimson_hoe"
+							},
+							"minecraft:digger": {
+								"on_dig": {
+									"event": "dmg"
+								}
+							}
+						},
+						"events": {
+							"on_tool_used": {
+								"swing": {},
+								"damage": {
+									"type": "magic",
+									"amount": 1,
+									"target": "self"
+								}
+							},
+							"dmg": {
+								"damage": {
+									"type": "magic",
+									"amount": 3,
+									"target": "self"
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "sw:crimson_hoe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_durability": 59
+								},
+								"minecraft:mining_speed": 2,
+								"minecraft:damage": 0,
+								"minecraft:enchantable": {
+									"value": 15,
+									"slot": "hoe"
+								},
+								"minecraft:use_on": {
+									"blocks": [
+										"grass",
+										"dirt",
+										"grass_path"
+									]
+								},
+								"tag:minecraft:is_hoe": {},
+								"minecraft:icon": {
+									"texture": "crimson_hoe"
+								},
+								"minecraft:digger": {
+									"on_dig": {
+										"event": "dmg"
+									}
+								}
+							},
+							"events": {
+								"on_tool_used": {
+									"swing": {},
+									"damage": {
+										"type": "magic",
+										"amount": 1,
+										"target": "self"
+									}
+								},
+								"dmg": {
+									"damage": {
+										"type": "magic",
+										"amount": 3,
+										"target": "self"
+									}
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "sw:crimson_hoe",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "sw:crimson_hoe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_durability": 59
+								},
+								"minecraft:mining_speed": 2,
+								"minecraft:damage": 0,
+								"minecraft:enchantable": {
+									"value": 15,
+									"slot": "hoe"
+								},
+								"minecraft:use_on": {
+									"blocks": [
+										"grass",
+										"dirt",
+										"grass_path"
+									]
+								},
+								"tag:minecraft:is_hoe": {},
+								"minecraft:icon": {
+									"texture": "crimson_hoe"
+								},
+								"minecraft:digger": {
+									"on_dig": {
+										"event": "dmg"
+									}
+								}
+							},
+							"events": {
+								"on_tool_used": {
+									"swing": {},
+									"damage": {
+										"type": "magic",
+										"amount": 1,
+										"target": "self"
+									}
+								},
+								"dmg": {
+									"damage": {
+										"type": "magic",
+										"amount": 3,
+										"target": "self"
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 59
+									},
+									"minecraft:mining_speed": 2,
+									"minecraft:damage": 0,
+									"minecraft:enchantable": {
+										"value": 15,
+										"slot": "hoe"
+									},
+									"minecraft:use_on": {
+										"blocks": [
+											"grass",
+											"dirt",
+											"grass_path"
+										]
+									},
+									"tag:minecraft:is_hoe": {},
+									"minecraft:icon": {
+										"texture": "crimson_hoe"
+									},
+									"minecraft:digger": {
+										"on_dig": {
+											"event": "dmg"
+										}
+									}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_durability": 59
+								}
+							},
+							{
+								"data": "2",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"data": "0",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 15,
+									"slot": "hoe"
+								}
+							},
+							{
+								"key": "minecraft:use_on",
+								"is_minified": true,
+								"children": {
+									"blocks": [
+										"grass",
+										"dirt",
+										"grass_path"
+									]
+								}
+							},
+							{
+								"key": "tag:minecraft:is_hoe",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 59
+									},
+									"minecraft:mining_speed": 2,
+									"minecraft:damage": 0,
+									"minecraft:enchantable": {
+										"value": 15,
+										"slot": "hoe"
+									},
+									"minecraft:use_on": {
+										"blocks": [
+											"grass",
+											"dirt",
+											"grass_path"
+										]
+									},
+									"tag:minecraft:is_hoe": {},
+									"minecraft:icon": {
+										"texture": "crimson_hoe"
+									},
+									"minecraft:digger": {
+										"on_dig": {
+											"event": "dmg"
+										}
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "crimson_hoe"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_durability": 59
+									},
+									"minecraft:mining_speed": 2,
+									"minecraft:damage": 0,
+									"minecraft:enchantable": {
+										"value": 15,
+										"slot": "hoe"
+									},
+									"minecraft:use_on": {
+										"blocks": [
+											"grass",
+											"dirt",
+											"grass_path"
+										]
+									},
+									"tag:minecraft:is_hoe": {},
+									"minecraft:icon": {
+										"texture": "crimson_hoe"
+									},
+									"minecraft:digger": {
+										"on_dig": {
+											"event": "dmg"
+										}
+									}
+								},
+								"key": "minecraft:digger",
+								"children": [
+									{
+										"open": {
+											"on_dig": {
+												"event": "dmg"
+											}
+										},
+										"key": "on_dig",
+										"is_minified": true,
+										"children": {
+											"event": "dmg"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "sw:crimson_hoe",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_durability": 59
+								},
+								"minecraft:mining_speed": 2,
+								"minecraft:damage": 0,
+								"minecraft:enchantable": {
+									"value": 15,
+									"slot": "hoe"
+								},
+								"minecraft:use_on": {
+									"blocks": [
+										"grass",
+										"dirt",
+										"grass_path"
+									]
+								},
+								"tag:minecraft:is_hoe": {},
+								"minecraft:icon": {
+									"texture": "crimson_hoe"
+								},
+								"minecraft:digger": {
+									"on_dig": {
+										"event": "dmg"
+									}
+								}
+							},
+							"events": {
+								"on_tool_used": {
+									"swing": {},
+									"damage": {
+										"type": "magic",
+										"amount": 1,
+										"target": "self"
+									}
+								},
+								"dmg": {
+									"damage": {
+										"type": "magic",
+										"amount": 3,
+										"target": "self"
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"key": "on_tool_used",
+								"is_minified": true,
+								"children": {
+									"swing": {},
+									"damage": {
+										"type": "magic",
+										"amount": 1,
+										"target": "self"
+									}
+								}
+							},
+							{
+								"open": {
+									"on_tool_used": {
+										"swing": {},
+										"damage": {
+											"type": "magic",
+											"amount": 1,
+											"target": "self"
+										}
+									},
+									"dmg": {
+										"damage": {
+											"type": "magic",
+											"amount": 3,
+											"target": "self"
+										}
+									}
+								},
+								"key": "dmg",
+								"children": [
+									{
+										"open": {
+											"damage": {
+												"type": "magic",
+												"amount": 3,
+												"target": "self"
+											}
+										},
+										"key": "damage",
+										"is_minified": true,
+										"children": {
+											"type": "magic",
+											"amount": 3,
+											"target": "self"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

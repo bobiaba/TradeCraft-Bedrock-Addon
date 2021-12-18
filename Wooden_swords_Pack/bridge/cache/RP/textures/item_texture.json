@@ -1,0 +1,666 @@
+{
+	"file_path": "/home/bob/.local/share/mcpelauncher/games/com.mojang/development_resource_packs/wooden_swords/textures/item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "755e8b6c_bad8_4a7d_b27b_e7b0ede00859",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"crimson_sword": {
+							"textures": [
+								"textures/items/crimson_sword"
+							]
+						},
+						"warped_sword": {
+							"textures": [
+								"textures/items/warped_sword"
+							]
+						},
+						"warped_shovel": {
+							"textures": [
+								"textures/items/warped_shovel"
+							]
+						},
+						"crimson_shovel": {
+							"textures": [
+								"textures/items/crimson_shovel"
+							]
+						},
+						"warped_pickaxe": {
+							"textures": [
+								"textures/items/warped_pickaxe"
+							]
+						},
+						"crimson_pickaxe": {
+							"textures": [
+								"textures/items/crimson_pickaxe"
+							]
+						},
+						"warped_hoe": {
+							"textures": [
+								"textures/items/warped_hoe"
+							]
+						},
+						"crimson_hoe": {
+							"textures": [
+								"textures/items/crimson_hoe"
+							]
+						},
+						"warped_axe": {
+							"textures": [
+								"textures/items/warped_axe"
+							]
+						},
+						"crimson_axe": {
+							"textures": [
+								"textures/items/crimson_axe"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "crimson_sword",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/crimson_sword"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/crimson_sword"
+								]
+							}
+						]
+					},
+					{
+						"key": "warped_sword",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/warped_sword"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/warped_sword"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"crimson_sword": {
+								"textures": [
+									"textures/items/crimson_sword"
+								]
+							},
+							"warped_sword": {
+								"textures": [
+									"textures/items/warped_sword"
+								]
+							},
+							"warped_shovel": {
+								"textures": [
+									"textures/items/warped_shovel"
+								]
+							},
+							"crimson_shovel": {
+								"textures": [
+									"textures/items/crimson_shovel"
+								]
+							},
+							"warped_pickaxe": {
+								"textures": [
+									"textures/items/warped_pickaxe"
+								]
+							},
+							"crimson_pickaxe": {
+								"textures": [
+									"textures/items/crimson_pickaxe"
+								]
+							},
+							"warped_hoe": {
+								"textures": [
+									"textures/items/warped_hoe"
+								]
+							},
+							"crimson_hoe": {
+								"textures": [
+									"textures/items/crimson_hoe"
+								]
+							},
+							"warped_axe": {
+								"textures": [
+									"textures/items/warped_axe"
+								]
+							},
+							"crimson_axe": {
+								"textures": [
+									"textures/items/crimson_axe"
+								]
+							}
+						},
+						"key": "warped_shovel",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/warped_shovel"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/warped_shovel"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"crimson_sword": {
+								"textures": [
+									"textures/items/crimson_sword"
+								]
+							},
+							"warped_sword": {
+								"textures": [
+									"textures/items/warped_sword"
+								]
+							},
+							"warped_shovel": {
+								"textures": [
+									"textures/items/warped_shovel"
+								]
+							},
+							"crimson_shovel": {
+								"textures": [
+									"textures/items/crimson_shovel"
+								]
+							},
+							"warped_pickaxe": {
+								"textures": [
+									"textures/items/warped_pickaxe"
+								]
+							},
+							"crimson_pickaxe": {
+								"textures": [
+									"textures/items/crimson_pickaxe"
+								]
+							},
+							"warped_hoe": {
+								"textures": [
+									"textures/items/warped_hoe"
+								]
+							},
+							"crimson_hoe": {
+								"textures": [
+									"textures/items/crimson_hoe"
+								]
+							},
+							"warped_axe": {
+								"textures": [
+									"textures/items/warped_axe"
+								]
+							},
+							"crimson_axe": {
+								"textures": [
+									"textures/items/crimson_axe"
+								]
+							}
+						},
+						"key": "crimson_shovel",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/crimson_shovel"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/crimson_shovel"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"crimson_sword": {
+								"textures": [
+									"textures/items/crimson_sword"
+								]
+							},
+							"warped_sword": {
+								"textures": [
+									"textures/items/warped_sword"
+								]
+							},
+							"warped_shovel": {
+								"textures": [
+									"textures/items/warped_shovel"
+								]
+							},
+							"crimson_shovel": {
+								"textures": [
+									"textures/items/crimson_shovel"
+								]
+							},
+							"warped_pickaxe": {
+								"textures": [
+									"textures/items/warped_pickaxe"
+								]
+							},
+							"crimson_pickaxe": {
+								"textures": [
+									"textures/items/crimson_pickaxe"
+								]
+							},
+							"warped_hoe": {
+								"textures": [
+									"textures/items/warped_hoe"
+								]
+							},
+							"crimson_hoe": {
+								"textures": [
+									"textures/items/crimson_hoe"
+								]
+							},
+							"warped_axe": {
+								"textures": [
+									"textures/items/warped_axe"
+								]
+							},
+							"crimson_axe": {
+								"textures": [
+									"textures/items/crimson_axe"
+								]
+							}
+						},
+						"key": "warped_pickaxe",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/warped_pickaxe"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/warped_pickaxe"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"crimson_sword": {
+								"textures": [
+									"textures/items/crimson_sword"
+								]
+							},
+							"warped_sword": {
+								"textures": [
+									"textures/items/warped_sword"
+								]
+							},
+							"warped_shovel": {
+								"textures": [
+									"textures/items/warped_shovel"
+								]
+							},
+							"crimson_shovel": {
+								"textures": [
+									"textures/items/crimson_shovel"
+								]
+							},
+							"warped_pickaxe": {
+								"textures": [
+									"textures/items/warped_pickaxe"
+								]
+							},
+							"crimson_pickaxe": {
+								"textures": [
+									"textures/items/crimson_pickaxe"
+								]
+							},
+							"warped_hoe": {
+								"textures": [
+									"textures/items/warped_hoe"
+								]
+							},
+							"crimson_hoe": {
+								"textures": [
+									"textures/items/crimson_hoe"
+								]
+							},
+							"warped_axe": {
+								"textures": [
+									"textures/items/warped_axe"
+								]
+							},
+							"crimson_axe": {
+								"textures": [
+									"textures/items/crimson_axe"
+								]
+							}
+						},
+						"key": "crimson_pickaxe",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/crimson_pickaxe"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/crimson_pickaxe"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"crimson_sword": {
+								"textures": [
+									"textures/items/crimson_sword"
+								]
+							},
+							"warped_sword": {
+								"textures": [
+									"textures/items/warped_sword"
+								]
+							},
+							"warped_shovel": {
+								"textures": [
+									"textures/items/warped_shovel"
+								]
+							},
+							"crimson_shovel": {
+								"textures": [
+									"textures/items/crimson_shovel"
+								]
+							},
+							"warped_pickaxe": {
+								"textures": [
+									"textures/items/warped_pickaxe"
+								]
+							},
+							"crimson_pickaxe": {
+								"textures": [
+									"textures/items/crimson_pickaxe"
+								]
+							},
+							"warped_hoe": {
+								"textures": [
+									"textures/items/warped_hoe"
+								]
+							},
+							"crimson_hoe": {
+								"textures": [
+									"textures/items/crimson_hoe"
+								]
+							},
+							"warped_axe": {
+								"textures": [
+									"textures/items/warped_axe"
+								]
+							},
+							"crimson_axe": {
+								"textures": [
+									"textures/items/crimson_axe"
+								]
+							}
+						},
+						"key": "warped_hoe",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/warped_hoe"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/warped_hoe"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"crimson_sword": {
+								"textures": [
+									"textures/items/crimson_sword"
+								]
+							},
+							"warped_sword": {
+								"textures": [
+									"textures/items/warped_sword"
+								]
+							},
+							"warped_shovel": {
+								"textures": [
+									"textures/items/warped_shovel"
+								]
+							},
+							"crimson_shovel": {
+								"textures": [
+									"textures/items/crimson_shovel"
+								]
+							},
+							"warped_pickaxe": {
+								"textures": [
+									"textures/items/warped_pickaxe"
+								]
+							},
+							"crimson_pickaxe": {
+								"textures": [
+									"textures/items/crimson_pickaxe"
+								]
+							},
+							"warped_hoe": {
+								"textures": [
+									"textures/items/warped_hoe"
+								]
+							},
+							"crimson_hoe": {
+								"textures": [
+									"textures/items/crimson_hoe"
+								]
+							},
+							"warped_axe": {
+								"textures": [
+									"textures/items/warped_axe"
+								]
+							},
+							"crimson_axe": {
+								"textures": [
+									"textures/items/crimson_axe"
+								]
+							}
+						},
+						"key": "crimson_hoe",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/crimson_hoe"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/crimson_hoe"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"crimson_sword": {
+								"textures": [
+									"textures/items/crimson_sword"
+								]
+							},
+							"warped_sword": {
+								"textures": [
+									"textures/items/warped_sword"
+								]
+							},
+							"warped_shovel": {
+								"textures": [
+									"textures/items/warped_shovel"
+								]
+							},
+							"crimson_shovel": {
+								"textures": [
+									"textures/items/crimson_shovel"
+								]
+							},
+							"warped_pickaxe": {
+								"textures": [
+									"textures/items/warped_pickaxe"
+								]
+							},
+							"crimson_pickaxe": {
+								"textures": [
+									"textures/items/crimson_pickaxe"
+								]
+							},
+							"warped_hoe": {
+								"textures": [
+									"textures/items/warped_hoe"
+								]
+							},
+							"crimson_hoe": {
+								"textures": [
+									"textures/items/crimson_hoe"
+								]
+							},
+							"warped_axe": {
+								"textures": [
+									"textures/items/warped_axe"
+								]
+							},
+							"crimson_axe": {
+								"textures": [
+									"textures/items/crimson_axe"
+								]
+							}
+						},
+						"key": "warped_axe",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/warped_axe"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/warped_axe"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"crimson_sword": {
+								"textures": [
+									"textures/items/crimson_sword"
+								]
+							},
+							"warped_sword": {
+								"textures": [
+									"textures/items/warped_sword"
+								]
+							},
+							"warped_shovel": {
+								"textures": [
+									"textures/items/warped_shovel"
+								]
+							},
+							"crimson_shovel": {
+								"textures": [
+									"textures/items/crimson_shovel"
+								]
+							},
+							"warped_pickaxe": {
+								"textures": [
+									"textures/items/warped_pickaxe"
+								]
+							},
+							"crimson_pickaxe": {
+								"textures": [
+									"textures/items/crimson_pickaxe"
+								]
+							},
+							"warped_hoe": {
+								"textures": [
+									"textures/items/warped_hoe"
+								]
+							},
+							"crimson_hoe": {
+								"textures": [
+									"textures/items/crimson_hoe"
+								]
+							},
+							"warped_axe": {
+								"textures": [
+									"textures/items/warped_axe"
+								]
+							},
+							"crimson_axe": {
+								"textures": [
+									"textures/items/crimson_axe"
+								]
+							}
+						},
+						"key": "crimson_axe",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/crimson_axe"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/crimson_axe"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
